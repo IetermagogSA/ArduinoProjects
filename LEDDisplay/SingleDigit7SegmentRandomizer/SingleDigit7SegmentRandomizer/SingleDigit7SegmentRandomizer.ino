@@ -37,7 +37,7 @@ void loop() {
 
   for(int j = 0; j < 10; j++)
   {
-    for(int i = 0; i < rand() % 500 + 20; i++)
+    for(int i = 0; i < rand() % 50 + 20; i++)
     {
       int pinToModify = rand() % 7;
       digitalWrite(segmentPins[pinToModify], HIGH);

@@ -43,6 +43,8 @@ void loop() {
       {
         digitalWrite(segmentPins[i], HIGH);
         delay(100);
+        // digitalWrite(segmentPins[i], LOW);
+        // delay(100);
       }
     }
 
